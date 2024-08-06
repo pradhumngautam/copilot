@@ -1,0 +1,57 @@
+.file-attachment-icon {
+    display: none !important;
+}
+.watermark{
+     display: none !important;
+}
+
+* Basic Custom Styles for Chainlit Application */
+
+/* Change the background color of the chat area */
+.chat-area {
+    background-color: #f0f0f0; /* Light gray background */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px; /* Padding inside the chat area */
+}
+
+/* Style the messages */
+.message {
+    font-family: 'Arial', sans-serif; /* Change font */
+    font-size: 14px; /* Font size */
+    color: #333; /* Dark text color */
+    margin: 5px 0; /* Margin between messages */
+}
+
+/* Style the user messages */
+.message.user {
+    background-color: #d1e7dd; /* Light green background for user messages */
+    border-radius: 5px; /* Rounded corners */
+    padding: 8px; /* Padding inside user messages */
+}
+
+/* Style the bot messages */
+.message.bot {
+    background-color: #cfe2ff; /* Light blue background for bot messages */
+    border-radius: 5px; /* Rounded corners */
+    padding: 8px; /* Padding inside bot messages */
+}
+
+/* Change the input area style */
+.input-area {
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside input area */
+}
+
+/* Style the send button */
+.send-button {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.send-button:hover {
+    background-color: #0056b3;}
