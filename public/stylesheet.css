@@ -4,6 +4,17 @@
 .watermark{
      display: none !important;
 }
+.MuiInputAdornment-root.MuiInputAdornment-positionStart.MuiInputAdornment-standard.MuiInputAdornment-sizeMedium.css-fvvsig {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .copilot-popover {
+        width: 100%; /* Adjust width for mobile */
+        max-width: 400px; /* Set a maximum width */
+        height: auto; /* Allow height to adjust */
+    }
+}
 
 * Basic Custom Styles for Chainlit Application */
 

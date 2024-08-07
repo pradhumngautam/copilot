@@ -4,9 +4,19 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="/public/stylesheet.css" />
     <style>
-      #chainlit-copilot-popover > div > div.dropzone.MuiBox-root.css-a4zs4c > div.MuiBox-root.css-bs6k9v > div.MuiBox-root.css-nktpa7 > div > div.MuiStack-root.css-mpndi9 > div.MuiBox-root.css-0 > div
-      {
+      #chainlit-copilot-popover
+        > div
+        > div.dropzone.MuiBox-root.css-a4zs4c
+        > div.MuiBox-root.css-bs6k9v
+        > div.MuiBox-root.css-nktpa7
+        > div
+        > div.MuiStack-root.css-mpndi9
+        > div.MuiBox-root.css-0
+        > div {
         display: none !important;
+      }
+      .MuiBox-root.css-0 {
+        display: none;
       }
     </style>
   </head>
@@ -17,7 +27,15 @@
     <script>
       window.mountChainlitWidget({
         chainlitServer: "http://localhost:8000",
-        hideBranding: true,
+        button: {
+          conatinerId: "chainlit-copilot-popover",
+          style: {
+            color: "#FFF",
+            bgcolor: "red",
+            size: "40"
+
+          },
+        },
       });
 
       window.addEventListener("chainlit-call-fn", (e) => {
